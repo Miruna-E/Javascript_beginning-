@@ -1,0 +1,8 @@
+//interchange array elements
+let random = [0, 1, 2, 3];
+document.addEventListener("DOMContentLoaded", (event) => {
+  console.log("DOM fully loaded and parsed");
+  [random[0], random[1]] = [random[1], random[0]];
+  console.log(random);
+  changeColor(box_column);
+});
