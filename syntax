@@ -6,3 +6,9 @@ document.addEventListener("DOMContentLoaded", (event) => {
   console.log(random);
   changeColor(box_column);
 });
+
+//numbers is an object
+let numbers1 = [0, 1];
+let numbers2 = [2, 3];
+let numbers = [numbers1, numbers2];
+numbers.forEach(elem => console.log(elem));
